@@ -428,7 +428,7 @@ const handleGenderIdentitySubmit = (genderIdentity: string) => {
   }
 
   if (currentStep === 7) {
-    return <Part1CompletionScreen continueLink={continueLink} />;
+    return <Part1CompletionScreen continueLink={continueLink} onContinueNow={() => setCurrentStep(8)} />;
   }
 
   if (currentStep === 8) {

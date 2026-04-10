@@ -68,8 +68,7 @@ export function RelationshipScreen({ onNext, onBack }: RelationshipScreenProps) 
                     e.currentTarget.style.borderColor = 'rgba(95, 76, 220, 0.3)';
                     e.currentTarget.style.backgroundColor = 'transparent';
                   }
-                }}
-                style={{ fontFamily: 'Darker Grotesque, sans-serif' }}
+                , fontFamily: 'Darker Grotesque, sans-serif' }}
               >
                 <div className="flex items-center gap-3">
                   <span className="w-8 h-8 text-white rounded flex items-center justify-center text-sm font-semibold" style={{ backgroundColor: '#5f4cdc' }}>
@@ -99,8 +98,7 @@ export function RelationshipScreen({ onNext, onBack }: RelationshipScreenProps) 
                     e.currentTarget.style.borderColor = 'rgba(95, 76, 220, 0.3)';
                     e.currentTarget.style.backgroundColor = 'transparent';
                   }
-                }}
-                style={{ fontFamily: 'Darker Grotesque, sans-serif' }}
+                , fontFamily: 'Darker Grotesque, sans-serif' }}
               >
                 <div className="flex items-center gap-3">
                   <span className="w-8 h-8 text-white rounded flex items-center justify-center text-sm font-semibold" style={{ backgroundColor: '#5f4cdc' }}>

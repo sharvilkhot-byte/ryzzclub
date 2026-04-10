@@ -65,14 +65,12 @@ export function AgeScreen({ onNext, onBack }: AgeScreenProps) {
                 onKeyPress={handleKeyPress}
                 placeholder="Type your answer here..."
                 className="w-full bg-transparent border-0 border-b-2 rounded-none px-0 py-3 md:py-4 text-lg md:text-xl focus:ring-0 focus:border-b-2"
-                style={{ borderBottomColor: '#5f4cdc', color: '#5f4cdc' }}
-                style={{ boxShadow: 'none', fontFamily: 'Darker Grotesque, sans-serif' }}
+                style={{ borderBottomColor: '#5f4cdc', color: '#5f4cdc', boxShadow: 'none', fontFamily: 'Darker Grotesque, sans-serif' }}
                 autoFocus
               />
               {age && (
                 <div className="absolute left-0 bottom-0 h-0.5 transition-all duration-300 ease-out"
-                     style={{ backgroundColor: '#5f4cdc' }}
-                     style={{ width: `${Math.min(age.length * 12, 100)}%` }} />
+                     style={{ backgroundColor: '#5f4cdc', width: `${Math.min(age.length * 12, 100)}%` }} />
               )}
             </div>
 

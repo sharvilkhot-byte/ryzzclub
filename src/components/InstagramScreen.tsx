@@ -73,15 +73,13 @@ export function InstagramScreen({ onNext, onBack }: InstagramScreenProps) {
                   onKeyPress={handleKeyPress}
                   placeholder="Type your answer here..."
                   className="flex-1 bg-transparent border-0 border-b-2 rounded-none px-0 py-3 md:py-4 text-lg md:text-xl focus:ring-0 focus:border-b-2"
-                  style={{ borderBottomColor: '#5f4cdc', color: '#5f4cdc' }}
-                  style={{ boxShadow: 'none', fontFamily: 'Darker Grotesque, sans-serif' }}
+                  style={{ borderBottomColor: '#5f4cdc', color: '#5f4cdc', boxShadow: 'none', fontFamily: 'Darker Grotesque, sans-serif' }}
                   autoFocus
                 />
               </div>
               {instagram && (
                 <div className="absolute left-6 bottom-0 h-0.5 transition-all duration-300 ease-out"
-                     style={{ backgroundColor: '#5f4cdc' }}
-                     style={{ width: `${Math.min(instagram.length * 8, 100)}%` }} />
+                     style={{ backgroundColor: '#5f4cdc', width: `${Math.min(instagram.length * 8, 100)}%` }} />
               )}
             </div>
 

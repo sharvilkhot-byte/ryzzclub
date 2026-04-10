@@ -119,8 +119,7 @@ export function PhoneNumberScreen({ onNext, onBack }: PhoneNumberScreenProps) {
                 onKeyPress={handleKeyPress}
                 placeholder="98765 43210"
                 className="flex-1 bg-transparent border-0 rounded-none px-0 py-0 text-lg md:text-xl focus:ring-0 focus:border-0"
-                style={{ color: '#5f4cdc' }}
-                style={{ boxShadow: 'none', fontFamily: 'Darker Grotesque, sans-serif' }}
+                style={{ color: '#5f4cdc', boxShadow: 'none', fontFamily: 'Darker Grotesque, sans-serif' }}
                 autoFocus
               />
             </div>

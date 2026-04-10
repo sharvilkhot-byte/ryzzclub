@@ -53,7 +53,7 @@ export function Part1CompletionScreen({ continueLink, onContinueNow }: { continu
               {copied ? (
                 <><Check className="mr-2 w-5 h-5" /> Copied!</>
               ) : (
-                <><Copy className="mr-2 w-5 h-5" /> Copy Continue Link</>
+                <><Copy className="mr-2 w-5 h-5" /> Copy Link and Continue Later</>
               )}
             </Button>
           )}

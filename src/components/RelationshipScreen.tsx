@@ -54,8 +54,8 @@ export function RelationshipScreen({ onNext, onBack }: RelationshipScreenProps) 
                 onClick={() => handleOptionSelect('Yes')}
                 className="w-full text-left px-4 py-3 md:px-6 md:py-4 border-2 rounded-lg transition-all duration-200"
                 style={selectedOption === 'Yes' 
-                  ? { borderColor: '#5f4cdc', backgroundColor: 'rgba(95, 76, 220, 0.1)' }
-                  : { borderColor: 'rgba(95, 76, 220, 0.3)' }
+                  ? { borderColor: '#5f4cdc', backgroundColor: 'rgba(95, 76, 220, 0.1)', fontFamily: 'Darker Grotesque, sans-serif' }
+                  : { borderColor: 'rgba(95, 76, 220, 0.3)', fontFamily: 'Darker Grotesque, sans-serif' }
                 }
                 onMouseEnter={(e) => {
                   if (selectedOption !== 'Yes') {
@@ -68,7 +68,7 @@ export function RelationshipScreen({ onNext, onBack }: RelationshipScreenProps) 
                     e.currentTarget.style.borderColor = 'rgba(95, 76, 220, 0.3)';
                     e.currentTarget.style.backgroundColor = 'transparent';
                   }
-                , fontFamily: 'Darker Grotesque, sans-serif' }}
+                }}
               >
                 <div className="flex items-center gap-3">
                   <span className="w-8 h-8 text-white rounded flex items-center justify-center text-sm font-semibold" style={{ backgroundColor: '#5f4cdc' }}>
@@ -84,8 +84,8 @@ export function RelationshipScreen({ onNext, onBack }: RelationshipScreenProps) 
                 onClick={() => handleOptionSelect('No')}
                 className="w-full text-left px-4 py-3 md:px-6 md:py-4 border-2 rounded-lg transition-all duration-200"
                 style={selectedOption === 'No' 
-                  ? { borderColor: '#5f4cdc', backgroundColor: 'rgba(95, 76, 220, 0.1)' }
-                  : { borderColor: 'rgba(95, 76, 220, 0.3)' }
+                  ? { borderColor: '#5f4cdc', backgroundColor: 'rgba(95, 76, 220, 0.1)', fontFamily: 'Darker Grotesque, sans-serif' }
+                  : { borderColor: 'rgba(95, 76, 220, 0.3)', fontFamily: 'Darker Grotesque, sans-serif' }
                 }
                 onMouseEnter={(e) => {
                   if (selectedOption !== 'No') {
@@ -98,7 +98,7 @@ export function RelationshipScreen({ onNext, onBack }: RelationshipScreenProps) 
                     e.currentTarget.style.borderColor = 'rgba(95, 76, 220, 0.3)';
                     e.currentTarget.style.backgroundColor = 'transparent';
                   }
-                , fontFamily: 'Darker Grotesque, sans-serif' }}
+                }}
               >
                 <div className="flex items-center gap-3">
                   <span className="w-8 h-8 text-white rounded flex items-center justify-center text-sm font-semibold" style={{ backgroundColor: '#5f4cdc' }}>
